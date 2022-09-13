@@ -1,0 +1,131 @@
+/* основной текст #757575 */
+/* цвет заголовков #212121 */
+/* цвет акцентный #2196F3 */
+/* белый #FFFFFF */
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --black-text-color: #000000;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo
+ */
+.logo {
+    color:var(--black-text-color);
+    font-family: Raleway, sans-serif;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo .accent {
+    color: var(--accent-text-color);
+}
+
+.logo:hover {
+    color: var(--accent-text-color);
+}
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--black-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
+
+}
+/* hero */
+
+.hero {
+    background-color:  #2F303A;
+}
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+/* button */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;  
+    text-decoration: none;
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.names-list .name {
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.names-list .name-profession {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.section.secondary {
+    background-color: #F5F5F5;
+}
+
+.section.people {
+    background-color: #F5F4FA;
+}
+/* features */
+
+.features .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.features .text {
+    font-size: 14px;
+    line-height: 1.7;
+}
