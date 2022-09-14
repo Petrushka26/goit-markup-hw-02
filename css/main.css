@@ -86,7 +86,24 @@ body {
     text-decoration: none;
 }
 
+.btn-filter {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
+
 /* section */
+
+.section {
+    background-color: var(--primary-white-color);
+}
 
 .section-title {
     color: var(--title-text-color);
@@ -94,6 +111,16 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+
+
+.section-title.feature {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+
 }
 
 .names-list .name {
@@ -115,6 +142,11 @@ body {
 
 .section.people {
     background-color: #F5F4FA;
+}
+
+.option {
+    font-size: 16px;
+    line-height: 1.9;
 }
 /* features */
 
