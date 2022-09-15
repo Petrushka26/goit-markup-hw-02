@@ -201,9 +201,3 @@ footer .info {
     letter-spacing: 0.03em;
     text-decoration-line: none;
 }
-
-footer .info:hover,
-footer .info:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-text-color);
-}
