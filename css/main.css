@@ -60,8 +60,21 @@ body {
 
 .site-nav .link.current {
     color: var(--accent-text-color);
-
 }
+
+.auth-nav .contact {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
+}
+.auth-nav .contact:hover,
+.auth-nav .contact:focus {
+    color: var(--accent-text-color);
+}
+
 /* hero */
 
 .hero {
@@ -160,4 +173,37 @@ body {
 .features .text {
     font-size: 14px;
     line-height: 1.7;
+}
+
+
+/* footer */
+footer {
+    background: #2F303A;
+    
+}
+
+.logo.studio {
+    color: var(--primary-white-color);
+}
+
+footer .city {
+    color: var(--primary-white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration-line: none;
+}
+footer .info {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: none;
+}
+
+footer .info:hover,
+footer .info:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
 }
